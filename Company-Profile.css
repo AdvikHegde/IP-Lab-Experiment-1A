@@ -1,0 +1,82 @@
+.header{
+    text-align:center;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    background-color:lightgreen;
+    border-radius:20px;
+    padding:10px 20px;
+    border:none;
+}
+.header-container{
+    text-align: center;
+}
+.footer-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:hwb(120 57% 7%);
+}
+body{
+    margin-bottom:1000px;
+}
+.footer-element{
+    background-color:darkgreen;
+    padding:5px 10px;
+    border-radius:5px;
+}
+.data{
+    color:white;
+}
+.card-container{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.card{
+    margin-top:20px;
+    flex:1;
+    height:300px;
+    border-radius:10px;
+    background-color:lightblue;    
+}
+
+.company-information{
+  background-color:rgb(245, 245, 220);
+  width:90%;
+  height:500px;
+  margin:10px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:20px;
+}
+.company-information h1{
+  padding:20px 0px 0px 20px;
+  font-size:50px;
+}
+.company-information p{
+  padding-left:20px;
+  font-size:20px;
+  font-family:arial;
+  text-align:justify;
+  width:90%;
+}
+.company-information button{
+  margin-left: 20px;
+  background-color: black;
+  color:white;
+  border:none;
+  border-radius:10px;
+  padding:10px 25px 10px 25px;
+}
+
+.information{
+  width:50%;
+  height:100%;
+  background-color:gray;
+}
